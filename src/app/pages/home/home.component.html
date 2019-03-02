@@ -1,0 +1,6 @@
+<ul class="list-group">
+  <li class="list-group-item" [ngClass]="{'list-group-item-danger': timeSlot.isSelected}"
+    (click)='routeToNextPage(timeSlot.slotId)' *ngFor="let timeSlot of timeSlots">
+    {{ timeSlot.title }}
+  </li>
+</ul>
