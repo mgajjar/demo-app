@@ -1,3 +1,21 @@
 .btnCancel{
     margin-left: 20px;
 }
+.parallax { 
+    /* The image used */
+    background-image: url("/assets/img/login-bg.jpg");
+  
+    /* Set a specific height */
+    height: 91.5vh;
+    position: absolute;
+    width: 100%; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .margin5{
+      margin-top: 5%;
+  }
